@@ -1,0 +1,107 @@
+body{
+    background-image: linear-gradient(to top right, #174d99, #c1d4f0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+}
+main{
+    height: 2400px;
+}
+p{
+    margin-bottom: -5px;
+}
+.nav-item{
+    font-size: 40px;
+    
+}
+.nav-link.active{
+    color: #FFC107 !important;
+    font-weight: bold;
+}
+.nav-link{
+    color: white !important;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.nav-item{
+    font-size: 40px;
+}
+.navbar{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.navbar-brand{
+    margin-right: -1070px;
+}
+footer{
+    background-color: #324664;
+    width: 100%;
+    height: 150px;
+    color: white;
+    position: relative;
+}   
+footer p{
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+footer img{
+    position: absolute;
+    right: 60px;
+    top: 50px;
+}
+#enviar{
+    margin-left: 40px;
+}
+.btn-warning{
+    color: white;
+    border-radius: 50px;
+    width: 160px;
+    height: 60px;
+    font-size: 30px;
+    margin: 10px 5px; 
+
+}
+#loginimg{
+    width: 45%;
+    margin-top: 15px;
+    transform: scale(300%);
+    filter:invert(100%);
+}
+#loginbnt{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 100px;
+    z-index: +1;
+}
+.cartao{
+    width: 400px;
+    height: 550px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: left;
+    transform: scale(90%);
+    background-image: linear-gradient(to right,#f2f7ff, #d2e2f9);
+}
+.imagem-cartao{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+section{
+    display: block;
+    margin: -10px auto;
+    text-align: center;
+}

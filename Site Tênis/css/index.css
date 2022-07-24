@@ -1,0 +1,121 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to top right, #174d99, #c1d4f0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#nomes{
+    margin-top: 70px;
+    margin-left: 70px;
+    color: white;
+
+}
+#nomes h1{
+    margin-left: 5px;
+}
+#nomes h2{
+    font-size: 100px;
+    margin-top: -30px;
+}
+#nomes h3{
+    font-size: 80px;
+    margin-left: 5px;
+    margin-top: -40px;
+}
+#enfeite{
+    background-image: linear-gradient(to top right,#ddeafe, #b8cff0);
+    height: 600px;
+    width: 600px;
+    border-top-left-radius: 70px;
+    position: absolute;
+    right: 0%;
+    top: 120px;
+}
+#tenis{
+    position: absolute;
+    top: 220px;
+    width: 40%;
+    right: 220px;
+    transform: rotate(45deg);
+    z-index: +1;
+}
+.btn-warning{
+    color: white;
+    border-radius: 50px;
+    width: 160px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 80px; 
+    margin-top: 5px;
+}
+#botoes{
+    margin-top: 40px;
+}
+
+footer{
+    background-color: #324664;
+    width: 70%;
+    height: 140px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-top-left-radius: 70px;
+    color: white;
+}
+footer p{
+    font-size: 40px;
+    margin: 45px;
+}
+.nav-item{
+    font-size: 40px;
+    
+}
+.nav-link.active{
+    color: #FFC107 !important;
+    font-weight: bold;
+}
+.nav-link{
+    color: white !important;
+    height: 50px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.nav-item{
+    font-size: 40px;
+}
+.navbar{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.navbar-brand{
+    margin-right: -1070px;
+}
+
+footer img{
+    position: absolute;
+    right: 60px;
+    top: 50px;
+}
+#loginimg{
+    width: 45%;
+    margin-top: 15px;
+    transform: scale(300%);
+    filter:invert(100%);
+}
+#loginbnt{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 100px;
+    z-index: +1;
+}
